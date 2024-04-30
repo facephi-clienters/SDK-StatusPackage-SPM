@@ -517,6 +517,159 @@
           {
             "kind": "Function",
             "name": "launchDiagnostic",
+            "printedName": "launchDiagnostic(img:title:description:viewController:closeAction:primaryAction:secundaryAction:primaryText:secundaryText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic3img5title11description04viewD011closeAction07primaryL009secundaryL00M4Text0nO0ySo7UIImageC_S2SSo06UIViewD0CyycSgA2RSSSgAStF",
+            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic3img5title11description04viewD011closeAction07primaryL009secundaryL00M4Text0nO0ySo7UIImageC_S2SSo06UIViewD0CyycSgA2RSSSgAStF",
+            "moduleName": "statusComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchDiagnostic",
             "printedName": "launchDiagnostic(img:title:description:viewController:closeAction:retryAction:)",
             "children": [
               {
@@ -693,12 +846,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(() -> ())?",
+                "printedName": "((UIKit.UIViewController) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "() -> ()",
+                    "printedName": "(UIKit.UIViewController) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -707,8 +860,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
                       }
                     ]
                   }
@@ -717,8 +871,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC14launchTutorial5title11description0E11ButtonTitle9animation04viewD017tipsConfiguration11closeAction0e6WidgetP0ySS_S3SSo06UIViewD0C4core0f4TipsN4DataVSgyycSgAStF",
-            "mangledName": "$s15statusComponent16StatusControllerC14launchTutorial5title11description0E11ButtonTitle9animation04viewD017tipsConfiguration11closeAction0e6WidgetP0ySS_S3SSo06UIViewD0C4core0f4TipsN4DataVSgyycSgAStF",
+            "usr": "s:15statusComponent16StatusControllerC14launchTutorial5title11description0E11ButtonTitle9animation04viewD017tipsConfiguration11closeAction0e6WidgetP0ySS_S3SSo06UIViewD0C4core0f4TipsN4DataVSgyycSgyANcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC14launchTutorial5title11description0E11ButtonTitle9animation04viewD017tipsConfiguration11closeAction0e6WidgetP0ySS_S3SSo06UIViewD0C4core0f4TipsN4DataVSgyycSgyANcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -2149,6 +2303,191 @@
                 "moduleName": "statusComponent"
               },
               {
+                "kind": "Var",
+                "name": "ic_sdk_logo",
+                "printedName": "ic_sdk_logo",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(statusComponent.R.Image.Type) -> statusComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "statusComponent.R.Image",
+                        "usr": "s:15statusComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "statusComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "statusComponent.R.Image",
+                            "usr": "s:15statusComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15statusComponent1RO5ImageO11ic_sdk_logoyA2EmF",
+                "mangledName": "$s15statusComponent1RO5ImageO11ic_sdk_logoyA2EmF",
+                "moduleName": "statusComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "ic_sdk_info",
+                "printedName": "ic_sdk_info",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(statusComponent.R.Image.Type) -> statusComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "statusComponent.R.Image",
+                        "usr": "s:15statusComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "statusComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "statusComponent.R.Image",
+                            "usr": "s:15statusComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15statusComponent1RO5ImageO11ic_sdk_infoyA2EmF",
+                "mangledName": "$s15statusComponent1RO5ImageO11ic_sdk_infoyA2EmF",
+                "moduleName": "statusComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "ic_status_success",
+                "printedName": "ic_status_success",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(statusComponent.R.Image.Type) -> statusComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "statusComponent.R.Image",
+                        "usr": "s:15statusComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "statusComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "statusComponent.R.Image",
+                            "usr": "s:15statusComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15statusComponent1RO5ImageO03ic_A8_successyA2EmF",
+                "mangledName": "$s15statusComponent1RO5ImageO03ic_A8_successyA2EmF",
+                "moduleName": "statusComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "ic_status_dot_primary",
+                "printedName": "ic_status_dot_primary",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(statusComponent.R.Image.Type) -> statusComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "statusComponent.R.Image",
+                        "usr": "s:15statusComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "statusComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "statusComponent.R.Image",
+                            "usr": "s:15statusComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15statusComponent1RO5ImageO03ic_A12_dot_primaryyA2EmF",
+                "mangledName": "$s15statusComponent1RO5ImageO03ic_A12_dot_primaryyA2EmF",
+                "moduleName": "statusComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "ic_status_dot_variant",
+                "printedName": "ic_status_dot_variant",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(statusComponent.R.Image.Type) -> statusComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "statusComponent.R.Image",
+                        "usr": "s:15statusComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "statusComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "statusComponent.R.Image",
+                            "usr": "s:15statusComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15statusComponent1RO5ImageO03ic_A12_dot_variantyA2EmF",
+                "mangledName": "$s15statusComponent1RO5ImageO03ic_A12_dot_variantyA2EmF",
+                "moduleName": "statusComponent"
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -3231,23 +3570,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "statusComponent",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "statusComponent"
-      },
-      {
-        "kind": "Import",
         "name": "core",
         "printedName": "core",
         "declKind": "Import",
@@ -3320,6 +3642,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "statusComponent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
+      },
+      {
+        "kind": "Import",
         "name": "core",
         "printedName": "core",
         "declKind": "Import",
@@ -3346,23 +3685,6 @@
         "kind": "Import",
         "name": "core",
         "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "statusComponent"
-      },
-      {
-        "kind": "Import",
-        "name": "Lottie",
-        "printedName": "Lottie",
-        "declKind": "Import",
-        "moduleName": "statusComponent",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "statusComponent"
       },
@@ -3628,6 +3950,23 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "statusComponent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
       }
     ],
     "json_format_version": 8
@@ -3664,210 +4003,210 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 137,
+      "offset": 140,
       "length": 30,
       "value": "\"com.facephi.status_component\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 210,
       "length": 7,
-      "value": "\"1.5.6\""
+      "value": "\"2.0.4\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 249,
+      "offset": 251,
       "length": 17,
       "value": "\"statusComponent\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 355,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 367,
+      "offset": 369,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 385,
+      "offset": 387,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 461,
+      "offset": 463,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 477,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 489,
+      "offset": 491,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 509,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 699,
       "length": 36,
       "value": "\"Cannot access \""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 732,
+      "offset": 734,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 191,
+      "offset": 196,
       "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 214,
+      "offset": 219,
       "length": 11,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 244,
       "length": 9,
       "value": "3"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 262,
+      "offset": 267,
       "length": 14,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 290,
+      "offset": 295,
       "length": 12,
       "value": "5"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 316,
+      "offset": 321,
       "length": 17,
       "value": "6"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 191,
+      "offset": 196,
       "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 214,
+      "offset": 219,
       "length": 11,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 244,
       "length": 9,
       "value": "3"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 262,
+      "offset": 267,
       "length": 14,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 290,
+      "offset": 295,
       "length": 12,
       "value": "5"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 316,
+      "offset": 321,
       "length": 17,
       "value": "6"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 191,
+      "offset": 196,
       "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 214,
+      "offset": 219,
       "length": 11,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 244,
       "length": 9,
       "value": "3"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 262,
+      "offset": 267,
       "length": 14,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 290,
+      "offset": 295,
       "length": 12,
       "value": "5"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
       "kind": "IntegerLiteral",
-      "offset": 316,
+      "offset": 321,
       "length": 17,
       "value": "6"
     },
@@ -3881,16 +4220,30 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 506,
+      "offset": 654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
+      "kind": "StringLiteral",
+      "offset": 908,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 943,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 700,
-      "length": 4,
-      "value": "true"
+      "offset": 979,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

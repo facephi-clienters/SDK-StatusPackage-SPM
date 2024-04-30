@@ -6,23 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		r5mlYjaodyPPs+/bkvoB0hHcrrs=
+		RPBKVFROkK8F0m+Jb6lZOX0VERc=
 		</data>
-		<key>DiagnosticView.nib/objects-13.0+.nib</key>
+		<key>DiagnosticView.nib</key>
 		<data>
-		P9pEvMbJbd36yqbTsauHMpADibQ=
+		5IzqoteIUzdMMtez3s4ud5E5r7M=
 		</data>
-		<key>DiagnosticView.nib/runtime.nib</key>
+		<key>PermissionView.nib</key>
 		<data>
-		6ppsgD/hSyw+gxFr80DpU3HfTKE=
-		</data>
-		<key>PermissionView.nib/objects-13.0+.nib</key>
-		<data>
-		6DiuJX7Bnc9riQzS9n2J0uObYak=
-		</data>
-		<key>PermissionView.nib/runtime.nib</key>
-		<data>
-		wr3gVa0ynnrwqPxBlrzd38Rs7Vw=
+		VaoOI6lw5wyJsz9VUgWUhxDj9ec=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -32,17 +24,17 @@
 		<data>
 		ILOci0gMlGsITWqgnxK/ELLsWqY=
 		</data>
-		<key>StatusTutorialView.nib/objects-13.0+.nib</key>
+		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		e5C4CJQDalbyns61ZnarZ25PaQo=
-		</data>
-		<key>StatusTutorialView.nib/runtime.nib</key>
-		<data>
-		BS7/7206I4/d4nTAjlnpYrwlZjQ=
+		AL1dh5ctObXBjoBiabSJ86M3HQs=
 		</data>
 		<key>TipsView.nib</key>
 		<data>
-		gqSDZ6V7SZv0Iyg/oPqjgkCJFec=
+		uenDYUy4eh686N7WcqNS2Qc+4Ds=
+		</data>
+		<key>TutorialView.nib</key>
+		<data>
+		AMrpa7qijnURFZzrSXgSyKm1jyA=
 		</data>
 		<key>en.lproj/StatusLocalizable.strings</key>
 		<dict>
@@ -78,55 +70,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r5mlYjaodyPPs+/bkvoB0hHcrrs=
+			RPBKVFROkK8F0m+Jb6lZOX0VERc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7WjG62gMbD2U9y8RHeM/FjDP5Oma9LnwhGafKfHso2Y=
+			OhLjo8m4/ujoqNXyiveaevPsU4e3MHEP5EM7An7r+HE=
 			</data>
 		</dict>
-		<key>DiagnosticView.nib/objects-13.0+.nib</key>
+		<key>DiagnosticView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P9pEvMbJbd36yqbTsauHMpADibQ=
+			5IzqoteIUzdMMtez3s4ud5E5r7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			VyxeDDf5ndxbhqMn7YEOrANbihF/CQ8RWJLIn8tQn6g=
+			uXwTnTmmKIapvuer/jZ7xYoFK7OiO41bQPyrhBfkltU=
 			</data>
 		</dict>
-		<key>DiagnosticView.nib/runtime.nib</key>
+		<key>PermissionView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6ppsgD/hSyw+gxFr80DpU3HfTKE=
+			VaoOI6lw5wyJsz9VUgWUhxDj9ec=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dj4FlDiY44c+p8s7S3bw4dnisEDnnQEmsLbOl6hTKCw=
-			</data>
-		</dict>
-		<key>PermissionView.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6DiuJX7Bnc9riQzS9n2J0uObYak=
-			</data>
-			<key>hash2</key>
-			<data>
-			RUMgz7ZOYdEf9iW1GGmBNU2tGYG5lJ671iqj3qW5Q38=
-			</data>
-		</dict>
-		<key>PermissionView.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wr3gVa0ynnrwqPxBlrzd38Rs7Vw=
-			</data>
-			<key>hash2</key>
-			<data>
-			aXD+DMI/N8LX4kjZBI59XQ/w4361B9izHotTSZGPoyc=
+			LlYhv+UMD5ST2HmJFGVHQSYBzFTU3ITJMgPTMvMYDqY=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>
@@ -151,37 +121,37 @@
 			v5wf9kCsyLtUQam1ZDYJQ/nbkJaXQqozo2MpsoKNJ1k=
 			</data>
 		</dict>
-		<key>StatusTutorialView.nib/objects-13.0+.nib</key>
+		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e5C4CJQDalbyns61ZnarZ25PaQo=
+			AL1dh5ctObXBjoBiabSJ86M3HQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			yqDxaIjswzOhmAhteJrLHJ0g9nONf44oasO6tc/8eZU=
-			</data>
-		</dict>
-		<key>StatusTutorialView.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BS7/7206I4/d4nTAjlnpYrwlZjQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			AKgiU0Jj5Uv9ZmHXJpMmUBXxG6q/szwMo0XxOIxuZTE=
+			WpuPwM3bECAbtHzCgEs/AExyUUdmItJb/E61TtRuEIQ=
 			</data>
 		</dict>
 		<key>TipsView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gqSDZ6V7SZv0Iyg/oPqjgkCJFec=
+			uenDYUy4eh686N7WcqNS2Qc+4Ds=
 			</data>
 			<key>hash2</key>
 			<data>
-			xKKWlOSmNoFO2VJCKtB+HsBwilYHVBJ45J9yxWzvKz4=
+			8eXxE5yWNtRfzoPKF9UuvCJ25IkkXvJb/am1v/zch+Y=
+			</data>
+		</dict>
+		<key>TutorialView.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AMrpa7qijnURFZzrSXgSyKm1jyA=
+			</data>
+			<key>hash2</key>
+			<data>
+			dBBcBpflBEnUzQ55y/yTadXSnfGxQCJ/I2xzHRFu/8s=
 			</data>
 		</dict>
 		<key>en.lproj/StatusLocalizable.strings</key>
