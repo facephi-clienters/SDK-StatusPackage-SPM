@@ -12,28 +12,44 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import core
+public enum Constants {
+  public static let libraryPackageVersion: Swift.String
+}
 public class StatusController {
   public init()
   @objc deinit
 }
 extension statusComponent.StatusController : core.IStatusController {
-  public func launchPermissionCheck(error: core.ErrorType, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?)
-  public func launchPermissionCheck(img: UIKit.UIImage?, title: Swift.String, description: Swift.String, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?)
-  public func launchSuccessResult(img: UIKit.UIImage?, title: Swift.String?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)? = nil)
-  public func launchDiagnostic(error: core.ErrorType, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)? = nil, retryAction: (() -> Swift.Void)? = nil)
-  public func launchDiagnostic(img: UIKit.UIImage, title: Swift.String, description: Swift.String, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)? = nil, primaryAction: (() -> Swift.Void)? = nil, secundaryAction: (() -> Swift.Void)? = nil, primaryText: Swift.String? = nil, secundaryText: Swift.String? = nil)
-  public func launchDiagnostic(img: UIKit.UIImage, title: Swift.String, description: Swift.String, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)? = nil, retryAction: (() -> Swift.Void)? = nil)
-  public func launchTutorial(title: Swift.String, description: Swift.String, launchButtonTitle: Swift.String, animation: Swift.String, viewController: UIKit.UIViewController, tipsConfiguration: core.TutorialTipsConfigurationData?, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?)
+  public func launchPermissionCheck(error: core.ErrorType, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getView: ((core.IPermissionView) -> Swift.Void)?)
+  public func launchPermissionCheck(img: core.AccesibleItem<UIKit.UIImage>?, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getView: ((core.IPermissionView) -> Swift.Void)?)
+  public func launchSuccessResult(img: UIKit.UIImage?, title: Swift.String?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?)
+  public func launchDiagnostic(error: core.ErrorType, title: core.AccesibleItem<Swift.String>?, description: core.AccesibleItem<Swift.String>?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, retryAction: (() -> Swift.Void)?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
+  public func launchDiagnostic(img: core.AccesibleItem<UIKit.UIImage>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
+  public func launchDiagnostic(img: core.AccesibleItem<UIKit.UIImage>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, retryAction: (() -> Swift.Void)?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
+  public func launchDiagnostic(animation: core.AccesibleItem<Swift.String>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IAnimatedView & core.IDiagnosisView) -> Swift.Void)?)
+  public func launchTutorial(title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, launchButtonTitle: core.AccesibleItem<Swift.String>, animation: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, tipsConfiguration: core.TutorialTipsConfigurationData?, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?, getView: ((core.IAnimatedView & core.ITutorialView) -> Swift.Void)?)
+  public func launchTipsTutorial(tipsConfiguration: core.TutorialTipsConfigurationData, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?)
+  public func launchLoadingPage(title: core.AccesibleItem<Swift.String>, animation: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getViewController: ((UIKit.UIViewController) -> Swift.Void)?)
+}
+extension statusComponent.StatusController : core.ICustomizableController {
+  public var customization: core.CommonCustomization? {
+    get
+    set(newValue)
+  }
 }
 extension statusComponent.R {
   public enum Color : Swift.String, Swift.CaseIterable {
+    case sdkPrimaryColor
+    case sdkSecondaryColor
     case sdkBackgroundColor
     case sdkTitleTextColor
     case sdkBodyTextColor
-    case sdkPrimaryButtonTextColor
+    case sdkTopIconsColor
+    case sdkButtonTextColor
+    case sdkErrorColor
     case sdkSuccessColor
-    case sdkPrimaryColor
-    case sdkPrimaryVariantColor
+    case sdkNeutralColor
+    case sdkAccentColor
     public init?(rawValue: Swift.String)
     public typealias AllCases = [statusComponent.R.Color]
     public typealias RawValue = Swift.String
@@ -54,6 +70,7 @@ extension statusComponent.R {
     case fontExtraLarge
     case radiusCorner
     case radiusCornerSmall
+    case outlinedBorderWidth
     public init?(rawValue: CoreFoundation.CGFloat)
     public typealias RawValue = CoreFoundation.CGFloat
     public var rawValue: CoreFoundation.CGFloat {
@@ -87,6 +104,8 @@ extension statusComponent.R {
     case ic_status_success
     case ic_status_dot_primary
     case ic_status_dot_variant
+    case ic_sdk_pager_back
+    case ic_sdk_pager_forward
     public init?(rawValue: Swift.String)
     public typealias AllCases = [statusComponent.R.Image]
     public typealias RawValue = Swift.String
@@ -115,6 +134,21 @@ extension statusComponent.ThemeStatus : statusComponent.ThemeStatusProtocol {
     get
   }
 }
+public class ThemeStatusFlow : statusComponent.ThemeStatusProtocol {
+  public var name: Swift.String {
+    get
+  }
+  public var fonts: [statusComponent.R.Font : Swift.String] {
+    get
+  }
+  public var images: [statusComponent.R.Image : UIKit.UIImage?] {
+    get
+  }
+  public var colors: [statusComponent.R.Color : UIKit.UIColor?]
+  public var dimensions: [statusComponent.R.Dimension : CoreFoundation.CGFloat]
+  public init(customization: core.CommonCustomization)
+  @objc deinit
+}
 public enum ThemeStatusManager {
   public static func setup(theme: statusComponent.ThemeStatusProtocol)
 }
@@ -134,8 +168,7 @@ extension statusComponent.ThemeStatusProtocol {
   }
 }
 public protocol TipsViewDelegate {
-  func goToPreviousPage()
-  func goToNextPage()
+  func goToWidget()
   func goToTutorialPage()
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TipsView : UIKit.UIView {
