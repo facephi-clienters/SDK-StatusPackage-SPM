@@ -15,8 +15,8 @@
 "sdk_tutorial_next_button_message"="NEXT";
 "sdk_tutorial_previous_button_message"="PREVIOUS";
 "sdk_tutorial_finish_button_message"="FINISH";
-"sdk_exit_alert_cancel" = "Cancel";
 "sdk_exit_alert_question" = "Are you sure you will finish the process?";
+"sdk_exit_alert_cancel" = "Cancel";
 "sdk_exit_alert_finish" = "Finish";
 "sdk_exit_alert_accept" = "Accept";
 "sdk_close_alt" = "Close";

@@ -164,6 +164,20 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -205,18 +219,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "statusComponent",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "core",
+        "printedName": "core",
         "declKind": "Import",
         "moduleName": "statusComponent"
       },
@@ -1147,17 +1151,25 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AccesibleItem",
-                "printedName": "core.AccesibleItem<Swift.String>",
+                "name": "Optional",
+                "printedName": "core.AccesibleItem<Swift.String>?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "AccesibleItem",
+                    "printedName": "core.AccesibleItem<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:4core13AccesibleItemV"
                   }
                 ],
-                "usr": "s:4core13AccesibleItemV"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1311,8 +1323,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic9animation5title11description04viewD011closeAction07primaryL009secondaryL00M4Text0nO07getViewy4core13AccesibleItemVySSG_A2RSo06UIViewD0CyycSgA2uRSgAVyAO09IAnimatedQ0_AO010IDiagnosisQ0pcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic9animation5title11description04viewD011closeAction07primaryL009secondaryL00M4Text0nO07getViewy4core13AccesibleItemVySSG_A2RSo06UIViewD0CyycSgA2uRSgAVyAO09IAnimatedQ0_AO010IDiagnosisQ0pcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic9animation5title11description04viewD011closeAction07primaryL009secondaryL00M4Text0nO07getViewy4core13AccesibleItemVySSG_A2RSgSo06UIViewD0CyycSgA2v2SyAO09IAnimatedQ0_AO010IDiagnosisQ0pcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic9animation5title11description04viewD011closeAction07primaryL009secondaryL00M4Text0nO07getViewy4core13AccesibleItemVySSG_A2RSgSo06UIViewD0CyycSgA2v2SyAO09IAnimatedQ0_AO010IDiagnosisQ0pcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -2842,14 +2854,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:15statusComponent1RO9DimensionO8rawValueAESg14CoreFoundation7CGFloatV_tcfc",
-                "mangledName": "$s15statusComponent1RO9DimensionO8rawValueAESg12CoreGraphics7CGFloatV_tcfc",
+                "usr": "s:15statusComponent1RO9DimensionO8rawValueAESgSS_tcfc",
+                "mangledName": "$s15statusComponent1RO9DimensionO8rawValueAESgSS_tcfc",
                 "moduleName": "statusComponent",
                 "implicit": true,
                 "init_kind": "Designated"
@@ -2861,14 +2873,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:15statusComponent1RO9DimensionO8rawValue14CoreFoundation7CGFloatVvp",
-                "mangledName": "$s15statusComponent1RO9DimensionO8rawValue12CoreGraphics7CGFloatVvp",
+                "usr": "s:15statusComponent1RO9DimensionO8rawValueSSvp",
+                "mangledName": "$s15statusComponent1RO9DimensionO8rawValueSSvp",
                 "moduleName": "statusComponent",
                 "implicit": true,
                 "accessors": [
@@ -2879,14 +2891,14 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CGFloat",
-                        "printedName": "CoreGraphics.CGFloat",
-                        "usr": "s:14CoreFoundation7CGFloatV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:15statusComponent1RO9DimensionO8rawValue14CoreFoundation7CGFloatVvg",
-                    "mangledName": "$s15statusComponent1RO9DimensionO8rawValue12CoreGraphics7CGFloatVvg",
+                    "usr": "s:15statusComponent1RO9DimensionO8rawValueSSvg",
+                    "mangledName": "$s15statusComponent1RO9DimensionO8rawValueSSvg",
                     "moduleName": "statusComponent",
                     "implicit": true,
                     "accessorKind": "get"
@@ -2899,7 +2911,7 @@
             "mangledName": "$s15statusComponent1RO9DimensionO",
             "moduleName": "statusComponent",
             "isFromExtension": true,
-            "enumRawTypeName": "CGFloat",
+            "enumRawTypeName": "String",
             "conformances": [
               {
                 "kind": "Conformance",
@@ -2927,9 +2939,9 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CGFloat",
-                        "printedName": "CoreGraphics.CGFloat",
-                        "usr": "s:14CoreFoundation7CGFloatV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ]
                   }
@@ -5354,6 +5366,13 @@
       },
       {
         "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5390,6 +5409,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
         "declKind": "Import",
         "moduleName": "statusComponent"
       },
@@ -5519,6 +5545,27 @@
             "declKind": "Func",
             "usr": "s:15statusComponent16TipsViewDelegateP16goToTutorialPageyyF",
             "mangledName": "$s15statusComponent16TipsViewDelegateP16goToTutorialPageyyF",
+            "moduleName": "statusComponent",
+            "genericSig": "<τ_0_0 where τ_0_0 : statusComponent.TipsViewDelegate>",
+            "sugared_genericSig": "<Self where Self : statusComponent.TipsViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "focusAccesibility",
+            "printedName": "focusAccesibility()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15statusComponent16TipsViewDelegateP17focusAccesibilityyyF",
+            "mangledName": "$s15statusComponent16TipsViewDelegateP17focusAccesibilityyyF",
             "moduleName": "statusComponent",
             "genericSig": "<τ_0_0 where τ_0_0 : statusComponent.TipsViewDelegate>",
             "sugared_genericSig": "<Self where Self : statusComponent.TipsViewDelegate>",
@@ -5765,7 +5812,7 @@
       "kind": "StringLiteral",
       "offset": 224,
       "length": 7,
-      "value": "\"2.1.3\""
+      "value": "\"2.2.0\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
@@ -5838,163 +5885,16 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 219,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 244,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 295,
-      "length": 12,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 321,
-      "length": 17,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 352,
-      "length": 19,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 219,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 244,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 295,
-      "length": 12,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 321,
-      "length": 17,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 352,
-      "length": 19,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 219,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 244,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 295,
-      "length": 12,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 321,
-      "length": 17,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Theme\/R\/Dimension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 352,
-      "length": 19,
-      "value": "7"
-    },
-    {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Tutorial\/TipsViewController.swift",
       "kind": "Array",
-      "offset": 429,
+      "offset": 436,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Tutorial\/TipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 558,
+      "offset": 565,
       "length": 1,
       "value": "0"
     },
@@ -6008,63 +5908,63 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1011,
+      "offset": 1012,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1047,
+      "offset": 1048,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4741,
+      "offset": 4898,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4777,
+      "offset": 4934,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5954,
+      "offset": 6112,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5990,
+      "offset": 6148,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/TutorialView\/TipsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 297,
+      "offset": 326,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/TutorialView\/TipsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 319,
+      "offset": 348,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/TutorialView\/TipsView.swift",
       "kind": "Array",
-      "offset": 1038,
+      "offset": 1066,
       "length": 2,
       "value": "[]"
     }

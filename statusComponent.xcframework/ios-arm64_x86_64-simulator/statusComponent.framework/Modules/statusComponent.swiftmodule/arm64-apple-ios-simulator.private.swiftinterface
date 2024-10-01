@@ -26,7 +26,7 @@ extension statusComponent.StatusController : core.IStatusController {
   public func launchDiagnostic(error: core.ErrorType, title: core.AccesibleItem<Swift.String>?, description: core.AccesibleItem<Swift.String>?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, retryAction: (() -> Swift.Void)?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
   public func launchDiagnostic(img: core.AccesibleItem<UIKit.UIImage>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
   public func launchDiagnostic(img: core.AccesibleItem<UIKit.UIImage>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, retryAction: (() -> Swift.Void)?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
-  public func launchDiagnostic(animation: core.AccesibleItem<Swift.String>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IAnimatedView & core.IDiagnosisView) -> Swift.Void)?)
+  public func launchDiagnostic(animation: core.AccesibleItem<Swift.String>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IAnimatedView & core.IDiagnosisView) -> Swift.Void)?)
   public func launchTutorial(title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, launchButtonTitle: core.AccesibleItem<Swift.String>, animation: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, tipsConfiguration: core.TutorialTipsConfigurationData?, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?, getView: ((core.IAnimatedView & core.ITutorialView) -> Swift.Void)?)
   public func launchTipsTutorial(tipsConfiguration: core.TutorialTipsConfigurationData, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?)
   public func launchLoadingPage(title: core.AccesibleItem<Swift.String>, animation: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getViewController: ((UIKit.UIViewController) -> Swift.Void)?)
@@ -62,7 +62,7 @@ extension statusComponent.R {
   }
 }
 extension statusComponent.R {
-  public enum Dimension : CoreFoundation.CGFloat {
+  public enum Dimension : Swift.String {
     case fontExtraSmall
     case fontSmall
     case fontRegular
@@ -71,9 +71,9 @@ extension statusComponent.R {
     case radiusCorner
     case radiusCornerSmall
     case outlinedBorderWidth
-    public init?(rawValue: CoreFoundation.CGFloat)
-    public typealias RawValue = CoreFoundation.CGFloat
-    public var rawValue: CoreFoundation.CGFloat {
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
       get
     }
   }
@@ -170,6 +170,7 @@ extension statusComponent.ThemeStatusProtocol {
 public protocol TipsViewDelegate {
   func goToWidget()
   func goToTutorialPage()
+  func focusAccesibility()
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TipsView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
