@@ -15,23 +15,37 @@ import core
 public enum Constants {
   public static let libraryPackageVersion: Swift.String
 }
+@_hasMissingDesignatedInitializers public class AnalyticsManager {
+  public var output: core.AnalyticsOutput?
+  public static var shared: statusComponent.AnalyticsManager
+  public func sendInfo(time: Swift.Double, component: Swift.String, type: core.EventType, info: Swift.String)
+  public func sendInfo(component: Swift.String, type: core.EventType, info: Swift.String)
+  public func sendInfo(component: Swift.String, type: core.EventType)
+  @objc deinit
+}
 public class StatusController {
   public init()
   @objc deinit
 }
 extension statusComponent.StatusController : core.IStatusController {
-  public func launchPermissionCheck(error: core.ErrorType, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getView: ((core.IPermissionView) -> Swift.Void)?)
-  public func launchPermissionCheck(img: core.AccesibleItem<UIKit.UIImage>?, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getView: ((core.IPermissionView) -> Swift.Void)?)
-  public func launchDiagnostic(error: core.ErrorType, title: core.AccesibleItem<Swift.String>?, description: core.AccesibleItem<Swift.String>?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, retryAction: (() -> Swift.Void)?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
-  public func launchDiagnostic(img: core.AccesibleItem<UIKit.UIImage>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
-  public func launchDiagnostic(img: core.AccesibleItem<UIKit.UIImage>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, retryAction: (() -> Swift.Void)?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
-  public func launchDiagnostic(animation: core.AccesibleItem<Swift.String>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IAnimatedView & core.IDiagnosisView) -> Swift.Void)?)
-  public func launchTutorial(title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, launchButtonTitle: core.AccesibleItem<Swift.String>, animation: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, tipsConfiguration: core.TutorialTipsConfigurationData?, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?, getView: ((core.IAnimatedView & core.ITutorialView) -> Swift.Void)?)
-  public func launchTipsTutorial(tipsConfiguration: core.TutorialTipsConfigurationData, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?)
+  public func launchPermissionCheck(component: Swift.String, error: core.ErrorType, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getView: ((core.IPermissionView) -> Swift.Void)?)
+  public func launchPermissionCheck(component: Swift.String, analyticsInfoScreen: Swift.String, img: core.AccesibleItem<UIKit.UIImage>?, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getView: ((core.IPermissionView) -> Swift.Void)?)
+  public func launchDiagnostic(component: Swift.String, error: core.ErrorType, title: core.AccesibleItem<Swift.String>?, description: core.AccesibleItem<Swift.String>?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, retryAction: (() -> Swift.Void)?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
+  public func launchDiagnostic(component: Swift.String, analyticsInfoScreen: Swift.String, img: core.AccesibleItem<UIKit.UIImage>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
+  public func launchDiagnostic(component: Swift.String, analyticsInfoScreen: Swift.String, img: core.AccesibleItem<UIKit.UIImage>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, retryAction: (() -> Swift.Void)?, getView: ((core.IDiagnosisView) -> Swift.Void)?)
+  public func launchDiagnostic(component: Swift.String, analyticsInfoScreen: Swift.String, animation: core.AccesibleItem<Swift.String>, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>?, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, primaryAction: (() -> Swift.Void)?, secondaryAction: (() -> Swift.Void)?, primaryText: core.AccesibleItem<Swift.String>?, secondaryText: core.AccesibleItem<Swift.String>?, getView: ((core.IAnimatedView & core.IDiagnosisView) -> Swift.Void)?)
+  public func launchTutorial(component: Swift.String, title: core.AccesibleItem<Swift.String>, description: core.AccesibleItem<Swift.String>, launchButtonTitle: core.AccesibleItem<Swift.String>, animation: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, tipsConfiguration: core.TutorialTipsConfigurationData?, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?, getView: ((core.IAnimatedView & core.ITutorialView) -> Swift.Void)?)
+  public func getTipsTutorial(component: Swift.String, tipsConfiguration: core.TutorialTipsConfigurationData, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, launchWidgetAction: ((UIKit.UIViewController) -> Swift.Void)?) -> core.Coordinator
   public func launchLoadingPage(title: core.AccesibleItem<Swift.String>, animation: core.AccesibleItem<Swift.String>, viewController: UIKit.UIViewController, closeAction: (() -> Swift.Void)?, getViewController: ((UIKit.UIViewController) -> Swift.Void)?)
 }
 extension statusComponent.StatusController : core.ICustomizableController {
   public var customization: core.CommonCustomization? {
+    get
+    set(newValue)
+  }
+}
+extension statusComponent.StatusController : core.IAnalyzableController {
+  public var analyticsOutput: core.AnalyticsOutput? {
     get
     set(newValue)
   }
