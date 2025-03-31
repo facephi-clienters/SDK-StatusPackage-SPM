@@ -24,8 +24,10 @@ let package = Package(
         .target(
             name: "SDK-StatusPackage-SPM",
             dependencies: [
-                .product(name: "core", package: "SDK-CorePackage-SPM"),
-                "lottie-spm"
+                "SDK-CorePackage-SPM",
+                .product(
+                 name: "Lottie",
+                 package: "lottie-spm"),
             ]),
         .binaryTarget(name: "statusComponent", path: "statusComponent.xcframework"),
         
