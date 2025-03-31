@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		CYQjo98oWrmZ2DhPJMgjGwb4rRI=
+		MQg+AG2RAVmLKXwNNExxJmA2Qd0=
 		</data>
 		<key>DiagnosticView.nib</key>
 		<data>
-		AcRWvn4ZZ+mxGiowXXYhX/fXsG4=
+		3YGGfBi2728sF936wjfH+OJ3a3o=
 		</data>
 		<key>PermissionView.nib</key>
 		<data>
-		VCxCDpEKypO1KE7N3h5KMQYF9Wo=
+		SsVqYTYXoYjbLhOuyaOQmhpbmnQ=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -30,12 +30,21 @@
 		</data>
 		<key>TipsView.nib</key>
 		<data>
-		X+/TjUUqhcm9m6tmeq6TQoPZM4A=
+		yMV+gyS2x4rgHPbcYaHf2Seuilk=
 		</data>
 		<key>TutorialView.nib</key>
 		<data>
-		gr4qlBMxnIBXF94O/Tj001t8a8I=
+		Xlfj6LCmGfrpDv7tmWKsc392Jqs=
 		</data>
+		<key>ca.lproj/StatusLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vNWW5UmmUqQ2+3ezYksX7L0vBgw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/StatusLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -50,6 +59,15 @@
 			<key>hash</key>
 			<data>
 			XONF2yrNfe4uizv0z6tEeAhrwu4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/StatusLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0mvkPLGQKXzjcSgXhCu0NEsGuBY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -70,33 +88,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CYQjo98oWrmZ2DhPJMgjGwb4rRI=
+			MQg+AG2RAVmLKXwNNExxJmA2Qd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			oBl3KLRVnh0aIom2iCCpCzladgqPs2pAZUe0vBtKCAU=
+			AMd5PSYnD93/LGVOM6+goZVAhnWFPs6adybMLNd7WpA=
 			</data>
 		</dict>
 		<key>DiagnosticView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AcRWvn4ZZ+mxGiowXXYhX/fXsG4=
+			3YGGfBi2728sF936wjfH+OJ3a3o=
 			</data>
 			<key>hash2</key>
 			<data>
-			WkK3jhGva+0xeuG2k/ns90t7zbc7HceXbDDSESYSt8k=
+			z/WpXHSHx8vjoqJc+ShEU473ZsalwRWpzmrIzkaXlkQ=
 			</data>
 		</dict>
 		<key>PermissionView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VCxCDpEKypO1KE7N3h5KMQYF9Wo=
+			SsVqYTYXoYjbLhOuyaOQmhpbmnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fq1Wvw1sUkD68JJUgqVSiOY0G99KZYsrFeSPzxyuydQ=
+			fMmKvrOUiMjM1K4Bk2FE1BsheDNBPQK67XbeedGqdOs=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>
@@ -136,23 +154,36 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X+/TjUUqhcm9m6tmeq6TQoPZM4A=
+			yMV+gyS2x4rgHPbcYaHf2Seuilk=
 			</data>
 			<key>hash2</key>
 			<data>
-			H6fcbh76MMuveRaMhpWAb2AnZi4H0iN/M0XKw0LqeTc=
+			jT3YIG4Ix8l1I6BXwHMO4V4Ua07yWLuPj+wtutcgJT0=
 			</data>
 		</dict>
 		<key>TutorialView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gr4qlBMxnIBXF94O/Tj001t8a8I=
+			Xlfj6LCmGfrpDv7tmWKsc392Jqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			vBvcu50iuh8qRh8e5s206vF/xqdrq6aYQn6ea+3Opqw=
+			+WOivhtDE4Y0a1JjTvTVSHgyLYHSHDsEuDCLxj0V6AA=
 			</data>
+		</dict>
+		<key>ca.lproj/StatusLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vNWW5UmmUqQ2+3ezYksX7L0vBgw=
+			</data>
+			<key>hash2</key>
+			<data>
+			ojGAyDGcQqug7SFtuSO6T1j1M7lW1kQWx2NZrdX6DA0=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>en.lproj/StatusLocalizable.strings</key>
 		<dict>
@@ -176,6 +207,19 @@
 			<key>hash2</key>
 			<data>
 			u5wPms9/4PjFcjQZDvflns1ECkjumcy9EsoOV7zsDWE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/StatusLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0mvkPLGQKXzjcSgXhCu0NEsGuBY=
+			</data>
+			<key>hash2</key>
+			<data>
+			cX/avcvBGG/M/0mEx9axNK2Xvmn3tMR2A1LCC0sVD6M=
 			</data>
 			<key>optional</key>
 			<true/>

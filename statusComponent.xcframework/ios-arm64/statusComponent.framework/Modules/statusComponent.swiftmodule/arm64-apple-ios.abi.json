@@ -178,6 +178,470 @@
       },
       {
         "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsManager",
+        "printedName": "AnalyticsManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "output",
+            "printedName": "output",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "core.EventType",
+                            "usr": "s:4core9EventTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15statusComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvp",
+            "mangledName": "$s15statusComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvp",
+            "moduleName": "statusComponent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventType",
+                                "printedName": "core.EventType",
+                                "usr": "s:4core9EventTypeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvg",
+                "mangledName": "$s15statusComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvg",
+                "moduleName": "statusComponent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventType",
+                                "printedName": "core.EventType",
+                                "usr": "s:4core9EventTypeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvs",
+                "mangledName": "$s15statusComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvs",
+                "moduleName": "statusComponent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvM",
+                "mangledName": "$s15statusComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvM",
+                "moduleName": "statusComponent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsManager",
+                "printedName": "statusComponent.AnalyticsManager",
+                "usr": "s:15statusComponent16AnalyticsManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15statusComponent16AnalyticsManagerC6sharedACvpZ",
+            "mangledName": "$s15statusComponent16AnalyticsManagerC6sharedACvpZ",
+            "moduleName": "statusComponent",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsManager",
+                    "printedName": "statusComponent.AnalyticsManager",
+                    "usr": "s:15statusComponent16AnalyticsManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16AnalyticsManagerC6sharedACvgZ",
+                "mangledName": "$s15statusComponent16AnalyticsManagerC6sharedACvgZ",
+                "moduleName": "statusComponent",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsManager",
+                    "printedName": "statusComponent.AnalyticsManager",
+                    "usr": "s:15statusComponent16AnalyticsManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16AnalyticsManagerC6sharedACvsZ",
+                "mangledName": "$s15statusComponent16AnalyticsManagerC6sharedACvsZ",
+                "moduleName": "statusComponent",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16AnalyticsManagerC6sharedACvMZ",
+                "mangledName": "$s15statusComponent16AnalyticsManagerC6sharedACvMZ",
+                "moduleName": "statusComponent",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendInfo",
+            "printedName": "sendInfo(time:component:type:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "core.EventType",
+                "usr": "s:4core9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15statusComponent16AnalyticsManagerC8sendInfo4time9component4type4infoySd_SS4core9EventTypeOSStF",
+            "mangledName": "$s15statusComponent16AnalyticsManagerC8sendInfo4time9component4type4infoySd_SS4core9EventTypeOSStF",
+            "moduleName": "statusComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendInfo",
+            "printedName": "sendInfo(component:type:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "core.EventType",
+                "usr": "s:4core9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15statusComponent16AnalyticsManagerC8sendInfo9component4type4infoySS_4core9EventTypeOSStF",
+            "mangledName": "$s15statusComponent16AnalyticsManagerC8sendInfo9component4type4infoySS_4core9EventTypeOSStF",
+            "moduleName": "statusComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendInfo",
+            "printedName": "sendInfo(component:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "core.EventType",
+                "usr": "s:4core9EventTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15statusComponent16AnalyticsManagerC8sendInfo9component4typeySS_4core9EventTypeOtF",
+            "mangledName": "$s15statusComponent16AnalyticsManagerC8sendInfo9component4typeySS_4core9EventTypeOtF",
+            "moduleName": "statusComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15statusComponent16AnalyticsManagerC",
+        "mangledName": "$s15statusComponent16AnalyticsManagerC",
+        "moduleName": "statusComponent",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -284,12 +748,18 @@
           {
             "kind": "Function",
             "name": "launchPermissionCheck",
-            "printedName": "launchPermissionCheck(error:viewController:closeAction:getView:)",
+            "printedName": "launchPermissionCheck(component:error:viewController:closeAction:getView:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -356,8 +826,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC21launchPermissionCheck5error04viewD011closeAction7getViewy4core9ErrorTypeO_So06UIViewD0CyycSgyAI011IPermissionM0_pcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC21launchPermissionCheck5error04viewD011closeAction7getViewy4core9ErrorTypeO_So06UIViewD0CyycSgyAI011IPermissionM0_pcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC21launchPermissionCheck9component5error04viewD011closeAction7getViewySS_4core9ErrorTypeOSo06UIViewD0CyycSgyAJ011IPermissionN0_pcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC21launchPermissionCheck9component5error04viewD011closeAction7getViewySS_4core9ErrorTypeOSo06UIViewD0CyycSgyAJ011IPermissionN0_pcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -368,12 +838,24 @@
           {
             "kind": "Function",
             "name": "launchPermissionCheck",
-            "printedName": "launchPermissionCheck(img:title:description:viewController:closeAction:getView:)",
+            "printedName": "launchPermissionCheck(component:analyticsInfoScreen:img:title:description:viewController:closeAction:getView:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -484,8 +966,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC21launchPermissionCheck3img5title11description04viewD011closeAction7getViewy4core13AccesibleItemVySo7UIImageCGSg_AMySSGARSo06UIViewD0CyycSgyAK011IPermissionO0_pcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC21launchPermissionCheck3img5title11description04viewD011closeAction7getViewy4core13AccesibleItemVySo7UIImageCGSg_AMySSGARSo06UIViewD0CyycSgyAK011IPermissionO0_pcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC21launchPermissionCheck9component19analyticsInfoScreen3img5title11description04viewD011closeAction7getViewySS_SS4core13AccesibleItemVySo7UIImageCGSgAOySSGATSo06UIViewD0CyycSgyAM011IPermissionS0_pcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC21launchPermissionCheck9component19analyticsInfoScreen3img5title11description04viewD011closeAction7getViewySS_SS4core13AccesibleItemVySo7UIImageCGSgAOySSGATSo06UIViewD0CyycSgyAM011IPermissionS0_pcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -496,12 +978,18 @@
           {
             "kind": "Function",
             "name": "launchDiagnostic",
-            "printedName": "launchDiagnostic(error:title:description:viewController:closeAction:retryAction:getView:)",
+            "printedName": "launchDiagnostic(component:error:title:description:viewController:closeAction:retryAction:getView:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -637,8 +1125,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic5error5title11description04viewD011closeAction05retryL07getViewy4core9ErrorTypeO_AL13AccesibleItemVySSGSgARSo06UIViewD0CyycSgAUyAL010IDiagnosisO0_pcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic5error5title11description04viewD011closeAction05retryL07getViewy4core9ErrorTypeO_AL13AccesibleItemVySSGSgARSo06UIViewD0CyycSgAUyAL010IDiagnosisO0_pcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic9component5error5title11description04viewD011closeAction05retryM07getViewySS_4core9ErrorTypeOAM13AccesibleItemVySSGSgASSo06UIViewD0CyycSgAVyAM010IDiagnosisP0_pcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic9component5error5title11description04viewD011closeAction05retryM07getViewySS_4core9ErrorTypeOAM13AccesibleItemVySSGSgASSo06UIViewD0CyycSgAVyAM010IDiagnosisP0_pcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -649,12 +1137,24 @@
           {
             "kind": "Function",
             "name": "launchDiagnostic",
-            "printedName": "launchDiagnostic(img:title:description:viewController:closeAction:primaryAction:secondaryAction:primaryText:secondaryText:getView:)",
+            "printedName": "launchDiagnostic(component:analyticsInfoScreen:img:title:description:viewController:closeAction:primaryAction:secondaryAction:primaryText:secondaryText:getView:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -851,8 +1351,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic3img5title11description04viewD011closeAction07primaryL009secondaryL00M4Text0nO07getViewy4core13AccesibleItemVySo7UIImageCG_AQySSGAUSo06UIViewD0CyycSgA2xUSgAYyAO010IDiagnosisQ0_pcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic3img5title11description04viewD011closeAction07primaryL009secondaryL00M4Text0nO07getViewy4core13AccesibleItemVySo7UIImageCG_AQySSGAUSo06UIViewD0CyycSgA2xUSgAYyAO010IDiagnosisQ0_pcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic9component19analyticsInfoScreen3img5title11description04viewD011closeAction07primaryP009secondaryP00Q4Text0rS07getViewySS_SS4core13AccesibleItemVySo7UIImageCGASySSGAWSo06UIViewD0CyycSgA2zWSgA_yAQ010IDiagnosisU0_pcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic9component19analyticsInfoScreen3img5title11description04viewD011closeAction07primaryP009secondaryP00Q4Text0rS07getViewySS_SS4core13AccesibleItemVySo7UIImageCGASySSGAWSo06UIViewD0CyycSgA2zWSgA_yAQ010IDiagnosisU0_pcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -863,12 +1363,24 @@
           {
             "kind": "Function",
             "name": "launchDiagnostic",
-            "printedName": "launchDiagnostic(img:title:description:viewController:closeAction:retryAction:getView:)",
+            "printedName": "launchDiagnostic(component:analyticsInfoScreen:img:title:description:viewController:closeAction:retryAction:getView:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -996,8 +1508,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic3img5title11description04viewD011closeAction05retryL07getViewy4core13AccesibleItemVySo7UIImageCG_ANySSGARSo06UIViewD0CyycSgAUyAL010IDiagnosisO0_pcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic3img5title11description04viewD011closeAction05retryL07getViewy4core13AccesibleItemVySo7UIImageCG_ANySSGARSo06UIViewD0CyycSgAUyAL010IDiagnosisO0_pcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic9component19analyticsInfoScreen3img5title11description04viewD011closeAction05retryP07getViewySS_SS4core13AccesibleItemVySo7UIImageCGAPySSGATSo06UIViewD0CyycSgAWyAN010IDiagnosisS0_pcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic9component19analyticsInfoScreen3img5title11description04viewD011closeAction05retryP07getViewySS_SS4core13AccesibleItemVySo7UIImageCGAPySSGATSo06UIViewD0CyycSgAWyAN010IDiagnosisS0_pcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -1008,12 +1520,24 @@
           {
             "kind": "Function",
             "name": "launchDiagnostic",
-            "printedName": "launchDiagnostic(animation:title:description:viewController:closeAction:primaryAction:secondaryAction:primaryText:secondaryText:getView:)",
+            "printedName": "launchDiagnostic(component:analyticsInfoScreen:animation:title:description:viewController:closeAction:primaryAction:secondaryAction:primaryText:secondaryText:getView:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -1217,8 +1741,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic9animation5title11description04viewD011closeAction07primaryL009secondaryL00M4Text0nO07getViewy4core13AccesibleItemVySSG_A2RSgSo06UIViewD0CyycSgA2v2SyAO09IAnimatedQ0_AO010IDiagnosisQ0pcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic9animation5title11description04viewD011closeAction07primaryL009secondaryL00M4Text0nO07getViewy4core13AccesibleItemVySSG_A2RSgSo06UIViewD0CyycSgA2v2SyAO09IAnimatedQ0_AO010IDiagnosisQ0pcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC16launchDiagnostic9component19analyticsInfoScreen9animation5title11description04viewD011closeAction07primaryP009secondaryP00Q4Text0rS07getViewySS_SS4core13AccesibleItemVySSGA2TSgSo06UIViewD0CyycSgA2x2UyAQ09IAnimatedU0_AQ010IDiagnosisU0pcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC16launchDiagnostic9component19analyticsInfoScreen9animation5title11description04viewD011closeAction07primaryP009secondaryP00Q4Text0rS07getViewySS_SS4core13AccesibleItemVySSGA2TSgSo06UIViewD0CyycSgA2x2UyAQ09IAnimatedU0_AQ010IDiagnosisU0pcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -1229,12 +1753,18 @@
           {
             "kind": "Function",
             "name": "launchTutorial",
-            "printedName": "launchTutorial(title:description:launchButtonTitle:animation:viewController:tipsConfiguration:closeAction:launchWidgetAction:getView:)",
+            "printedName": "launchTutorial(component:title:description:launchButtonTitle:animation:viewController:tipsConfiguration:closeAction:launchWidgetAction:getView:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -1390,8 +1920,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC14launchTutorial5title11description0E11ButtonTitle9animation04viewD017tipsConfiguration11closeAction0e6WidgetP07getViewy4core13AccesibleItemVySSG_A3QSo06UIViewD0CAN0f4TipsN4DataVSgyycSgyAScSgyAN09IAnimatedS0_AN09ITutorialS0pcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC14launchTutorial5title11description0E11ButtonTitle9animation04viewD017tipsConfiguration11closeAction0e6WidgetP07getViewy4core13AccesibleItemVySSG_A3QSo06UIViewD0CAN0f4TipsN4DataVSgyycSgyAScSgyAN09IAnimatedS0_AN09ITutorialS0pcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC14launchTutorial9component5title11description0E11ButtonTitle9animation04viewD017tipsConfiguration11closeAction0e6WidgetQ07getViewySS_4core13AccesibleItemVySSGA3RSo06UIViewD0CAO0f4TipsO4DataVSgyycSgyATcSgyAO09IAnimatedT0_AO09ITutorialT0pcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC14launchTutorial9component5title11description0E11ButtonTitle9animation04viewD017tipsConfiguration11closeAction0e6WidgetQ07getViewySS_4core13AccesibleItemVySSGA3RSo06UIViewD0CAO0f4TipsO4DataVSgyycSgyATcSgyAO09IAnimatedT0_AO09ITutorialT0pcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -1401,13 +1931,20 @@
           },
           {
             "kind": "Function",
-            "name": "launchTipsTutorial",
-            "printedName": "launchTipsTutorial(tipsConfiguration:viewController:closeAction:launchWidgetAction:)",
+            "name": "getTipsTutorial",
+            "printedName": "getTipsTutorial(component:tipsConfiguration:viewController:closeAction:launchWidgetAction:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Coordinator",
+                "printedName": "core.Coordinator",
+                "usr": "s:4core11CoordinatorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -1474,8 +2011,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC18launchTipsTutorial17tipsConfiguration04viewD011closeAction0e6WidgetL0y4core0gfI4DataV_So06UIViewD0CyycSgyAMcSgtF",
-            "mangledName": "$s15statusComponent16StatusControllerC18launchTipsTutorial17tipsConfiguration04viewD011closeAction0e6WidgetL0y4core0gfI4DataV_So06UIViewD0CyycSgyAMcSgtF",
+            "usr": "s:15statusComponent16StatusControllerC15getTipsTutorial9component17tipsConfiguration04viewD011closeAction012launchWidgetM04core11Coordinator_pSS_AJ0gfJ4DataVSo06UIViewD0CyycSgyAOcSgtF",
+            "mangledName": "$s15statusComponent16StatusControllerC15getTipsTutorial9component17tipsConfiguration04viewD011closeAction012launchWidgetM04core11Coordinator_pSS_AJ0gfJ4DataVSo06UIViewD0CyycSgyAOcSgtF",
             "moduleName": "statusComponent",
             "declAttributes": [
               "AccessControl"
@@ -1697,6 +2234,226 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "analyticsOutput",
+            "printedName": "analyticsOutput",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "core.EventType",
+                            "usr": "s:4core9EventTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15statusComponent16StatusControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvp",
+            "mangledName": "$s15statusComponent16StatusControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvp",
+            "moduleName": "statusComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventType",
+                                "printedName": "core.EventType",
+                                "usr": "s:4core9EventTypeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16StatusControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvg",
+                "mangledName": "$s15statusComponent16StatusControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvg",
+                "moduleName": "statusComponent",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventType",
+                                "printedName": "core.EventType",
+                                "usr": "s:4core9EventTypeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16StatusControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvs",
+                "mangledName": "$s15statusComponent16StatusControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvs",
+                "moduleName": "statusComponent",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15statusComponent16StatusControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvM",
+                "mangledName": "$s15statusComponent16StatusControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvM",
+                "moduleName": "statusComponent",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -1720,6 +2477,13 @@
             "printedName": "ICustomizableController",
             "usr": "s:4core23ICustomizableControllerP",
             "mangledName": "$s4core23ICustomizableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IAnalyzableController",
+            "printedName": "IAnalyzableController",
+            "usr": "s:4core21IAnalyzableControllerP",
+            "mangledName": "$s4core21IAnalyzableControllerP"
           }
         ]
       },
@@ -5322,30 +6086,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "statusComponent",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "statusComponent"
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "statusComponent"
-      },
-      {
-        "kind": "Import",
         "name": "Lottie",
         "printedName": "Lottie",
         "declKind": "Import",
@@ -5713,140 +6453,147 @@
       "kind": "StringLiteral",
       "offset": 224,
       "length": 7,
-      "value": "\"2.2.3\""
+      "value": "\"2.3.1\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 251,
+      "offset": 308,
       "length": 17,
       "value": "\"statusComponent\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 412,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 369,
+      "offset": 426,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 444,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 463,
+      "offset": 520,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 534,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 548,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 509,
+      "offset": 566,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 699,
+      "offset": 756,
       "length": 36,
       "value": "\"Cannot access \""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 791,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Tutorial\/TipsViewController.swift",
       "kind": "Array",
-      "offset": 436,
+      "offset": 330,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Tutorial\/TipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 565,
+      "offset": 518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 632,
+      "offset": 789,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1012,
+      "offset": 1259,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1048,
+      "offset": 1295,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5086,
+      "offset": 6188,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5122,
+      "offset": 6224,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6300,
+      "offset": 7402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6336,
+      "offset": 7438,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/PermissionView\/PermissionView.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/TutorialView\/TipsView.swift",
@@ -5864,10 +6611,24 @@
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/TutorialView\/TipsView.swift",
+      "kind": "StringLiteral",
+      "offset": 1025,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/TutorialView\/TipsView.swift",
       "kind": "Array",
-      "offset": 1066,
+      "offset": 1124,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/TutorialView\/TutorialView.swift",
+      "kind": "StringLiteral",
+      "offset": 852,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }
