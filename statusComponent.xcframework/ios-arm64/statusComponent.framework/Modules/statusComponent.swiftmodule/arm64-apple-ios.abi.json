@@ -495,112 +495,6 @@
           },
           {
             "kind": "Function",
-            "name": "launchSuccessResult",
-            "printedName": "launchSuccessResult(img:title:viewController:closeAction:secondaryAction:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15statusComponent16StatusControllerC19launchSuccessResult3img5title04viewD011closeAction09secondaryL0ySo7UIImageCSg_SSSgSo06UIViewD0CyycSgAPtF",
-            "mangledName": "$s15statusComponent16StatusControllerC19launchSuccessResult3img5title04viewD011closeAction09secondaryL0ySo7UIImageCSg_SSSgSo06UIViewD0CyycSgAPtF",
-            "moduleName": "statusComponent",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "launchDiagnostic",
             "printedName": "launchDiagnostic(error:title:description:viewController:closeAction:retryAction:getView:)",
             "children": [
@@ -5812,7 +5706,7 @@
       "kind": "StringLiteral",
       "offset": 224,
       "length": 7,
-      "value": "\"2.2.0\""
+      "value": "\"2.2.1\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
@@ -5922,28 +5816,28 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4898,
+      "offset": 5086,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4934,
+      "offset": 5122,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6112,
+      "offset": 6300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/UI\/Views\/DiagnosticView\/DiagnosticView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6148,
+      "offset": 6336,
       "length": 5,
       "value": "false"
     },
