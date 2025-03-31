@@ -1755,6 +1755,13 @@
       },
       {
         "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "statusComponent"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5706,7 +5713,7 @@
       "kind": "StringLiteral",
       "offset": 224,
       "length": 7,
-      "value": "\"2.2.1\""
+      "value": "\"2.2.3\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-StatusComponent-SPM\/SDK-StatusComponent-SPM\/Sources\/statusComponent\/Helpers\/Extensions\/Bundle.swift",
