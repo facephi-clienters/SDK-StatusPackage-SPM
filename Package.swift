@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.10.0")),
+        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.11.0")),
         .package(url: "https://github.com/airbnb/lottie-spm.git", .upToNextMinor(from: "4.4.0")),
     ],
     targets: [
@@ -30,7 +30,7 @@ let package = Package(
                     package: "lottie-spm"),
             ]),
         .binaryTarget(name: "statusComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKStatusComponent/2.10.0/statusComponent.zip",
-        checksum: "be7bbda091448e04dbc42ffd02427df90b1efa3a1deedc490bdeef37cf843f6f"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKStatusComponent/2.11.0/statusComponent.zip",
+        checksum: "61cdeba5f9c441555d7b431067d46831460cb197fb374e12a82a95cf37c94cac"),
     ]
 )
